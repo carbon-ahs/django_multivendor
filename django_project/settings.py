@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "corsheaders",
     # project apps
     "core",
-    "accounts.apps.AccountsConfig",
+    "userprofiles",
+    "store",
 ]
 
 MIDDLEWARE = [
@@ -97,7 +98,7 @@ DATABASES = {
 }
 
 # User Auth
-AUTH_USER_MODEL = "accounts.CustomUser"
+# AUTH_USER_MODEL = "accounts.CustomUser"
 # Password validation
 
 CORS_ALLOWED_ORIGINS = [
