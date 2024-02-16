@@ -36,3 +36,4 @@ This is a boilerplate Django project that serves as a foundation for building we
 
 ## Contact
 For any inquiries or feedback, please contact `shehanuk.ahsan@gmail.com` .
+"# django_multivendor" 
