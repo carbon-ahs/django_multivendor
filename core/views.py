@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from store.models import Product
 
 
 # Create your views here.
@@ -35,7 +36,11 @@ class SomethingCoolView(TemplateView):
 
 
 def frontpage(request):
-    return render(request, "core/frontpage.html")
+    products = Product.objects.all()[0:6]
+    context = {
+        "products": products,
+    }
+    return render(request, "core/frontpage.html", context)
 
 
 def about(request):
