@@ -1,7 +1,7 @@
-# Django Boilerplate Project
+# Django Multi Vendor Ecommerce Website Project
 
 ## Introduction
-This is a boilerplate Django project that serves as a foundation for building web applications using Django, a high-level Python web framework. It is pre-configured with some basic settings, file structure, and dependencies to help you kickstart your project development.
+
 
 ## Features
 - Django version: 4.0
@@ -36,4 +36,4 @@ This is a boilerplate Django project that serves as a foundation for building we
 
 ## Contact
 For any inquiries or feedback, please contact `shehanuk.ahsan@gmail.com` .
-"# django_multivendor" 
+
